@@ -84,10 +84,11 @@ import "C"
 import "unsafe"
 
 import (
-	"github.com/rogpeppe/rog-go/exp/callback"
 	"errors"
 	"fmt"
 	"sync"
+	
+	"github.com/rogpeppe/rog-go/exp/callback"
 )
 
 var (
